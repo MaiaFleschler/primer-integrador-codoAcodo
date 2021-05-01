@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./imagenes/header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 80px;
+    color: white;
+}
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#logo{
+    width: 350px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.textoHeader{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+main{
+    overflow: hidden;
+}
+.contenedorMain{
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.info{
+    text-align: center;
+}
+.icono{
+    height: 70px;
+}
+.info h2{
+    margin-top: 30px;
+}
+.info p{
+    margin-top: 30px;
+}
+.anuncio{
+    width: 32%;
+    background-color: rgb(235, 235, 240);
+}
+.anuncio img{
+    width: 100%;
+}
+.informacion{
+    padding: 15px;
+}
+.anuncio h3{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.descripcion{
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.precio{
+    color: green;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.cantidad{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.cantidad img{
+    width: 30px;
+}
+.propiedad{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+#otrosAnuncios{
+    text-align: center;
+    background-color: rgb(102, 199, 78);
+    color: white;
+    padding: 10px 20px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 20px;
+    font-weight: 600;
+}
+footer{
+    background-image: url(./imagenes/encuentra.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+#contacto h1{
+    color: white;
+    text-align: left;
+    font-weight: 600;
+}
+#contacto p{
+    color: white;
+}
+#contactoBoton{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    width: fit-content;
+}
+#navegadorFooter{
+    background-color: rgb(59, 58, 58);
+    height: 15%;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+button{
+    border: none;
+}
+button:hover{
+    opacity: 0.8;
+}
